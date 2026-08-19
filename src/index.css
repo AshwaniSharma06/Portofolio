@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@600;700;800;900&family=Space+Mono:wght@400;700&display=swap');
+
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+    background-color: #F8F9FA;
+    color: #0F172A;
+  }
+}
+
+/* Custom Color Tokens for Tailwind v4 */
+@theme {
+  --color-brand-red: #E50914;
+  --color-brand-redDark: #B81D24;
+  --color-brand-dark: #0F172A;
+  --color-brand-charcoal: #1E293B;
+  --color-brand-bg: #F8F9FA;
+  --color-brand-cardBg: #FFFFFF;
+  --color-brand-border: #E2E8F0;
+
+  --font-display: 'Outfit', 'Cabinet Grotesk', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+  --font-body: 'Inter', sans-serif;
+}
+
+/* Superhero Red 3D Offset Text Shadow Effect */
+.text-offset-shadow {
+  text-shadow: 4px 4px 0px #E50914;
+}
+
+.text-offset-shadow-dark {
+  text-shadow: 3px 3px 0px #0F172A;
+}
+
+/* Glassmorphism Card Style */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+/* Spiderweb Watermark Overlay */
+.bg-spiderweb {
+  background-image: radial-gradient(circle, rgba(229, 9, 20, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #E50914;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B81D24;
+}
+
+/* Spider & Web Animations */
+@keyframes swing {
+  0%, 100% {
+    transform: rotate(-6deg);
+  }
+  50% {
+    transform: rotate(6deg);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-swing {
+  animation: swing 4s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+.animate-float-slow {
+  animation: floatSlow 5s ease-in-out infinite;
+}
+
+.mix-multiply {
+  mix-blend-mode: multiply;
+}
+
+.sticker-shadow {
+  filter: drop-shadow(0 12px 20px rgba(0, 0, 0, 0.2));
+}
+

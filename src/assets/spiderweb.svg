@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none" stroke="currentColor" stroke-width="1.5">
+  <path d="M250 0 V500 M0 250 H500 M73 73 L427 427 M427 73 L73 427" opacity="0.4" />
+  <polygon points="250,200 285,215 300,250 285,285 250,300 215,285 200,250 215,215" opacity="0.3"/>
+  <polygon points="250,150 321,179 350,250 321,321 250,350 179,321 150,250 179,179" opacity="0.25"/>
+  <polygon points="250,100 356,144 400,250 356,356 250,400 144,356 100,250 144,144" opacity="0.2"/>
+  <polygon points="250,50 391,109 450,250 391,391 250,450 109,391 50,250 109,109" opacity="0.15"/>
+</svg>
