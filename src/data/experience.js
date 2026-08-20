@@ -35,6 +35,20 @@ export const educationData = [
     ]
   },
   {
+    id: "jee-main-2023",
+    degree: "JEE Main 2023 (Qualified)",
+    institution: "National Testing Agency (NTA)",
+    location: "India",
+    period: "2023",
+    scoreLabel: "Percentile",
+    score: "86.426 %ile",
+    status: "National Competitive Exam",
+    highlights: [
+      "Qualified JEE Main 2023 with 86.426 percentile in Physics, Chemistry & Mathematics.",
+      "Secured admission into B.Tech CSE at Government Engineering College, Ajmer."
+    ]
+  },
+  {
     id: "class-12",
     degree: "Class 12th (Senior Secondary)",
     institution: "Guru Siddharth International School",
@@ -43,7 +57,8 @@ export const educationData = [
     scoreLabel: "Percentage",
     score: "67.2%",
     highlights: [
-      "Science and Mathematics concentration."
+      "Science and Mathematics concentration.",
+      "Qualified JEE Main 2023 with 86.426 percentile."
     ]
   },
   {
