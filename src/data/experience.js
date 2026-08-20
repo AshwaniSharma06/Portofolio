@@ -24,10 +24,13 @@ export const educationData = [
     location: "Ajmer, Rajasthan, India",
     period: "2023 - 2027",
     scoreLabel: "CGPA",
-    score: "7.26",
+    score: "7.47",
+    sgpaLabel: "6th Sem SGPA",
+    sgpa: "8.48",
     status: "Final-year Student",
     highlights: [
       "Specializing in Full Stack Software Development, AI/ML, and Cybersecurity.",
+      "Achieved 8.48 SGPA in 6th Semester, bringing cumulative CGPA to 7.47.",
       "Building scalable web applications, Android apps, and machine learning threat detection models."
     ]
   },

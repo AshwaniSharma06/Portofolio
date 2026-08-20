@@ -192,10 +192,20 @@ export default function ExperienceSection() {
                     </div>
                   </div>
 
-                  <div className="inline-flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-2xl font-mono text-xs font-bold text-slate-800 mb-4 shadow-sm">
-                    <span className="text-slate-400 uppercase">{edu.scoreLabel}:</span>
-                    <span className="text-brand-red text-sm font-extrabold">{edu.score}</span>
+                  <div className="flex flex-wrap items-center gap-3 mb-4">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-2xl font-mono text-xs font-bold text-slate-800 shadow-sm">
+                      <span className="text-slate-400 uppercase">{edu.scoreLabel}:</span>
+                      <span className="text-brand-red text-sm font-extrabold">{edu.score}</span>
+                    </div>
+
+                    {edu.sgpa && (
+                      <div className="inline-flex items-center gap-2 px-4 py-2 bg-red-50 border border-brand-red/20 rounded-2xl font-mono text-xs font-bold text-brand-dark shadow-sm">
+                        <span className="text-slate-500 uppercase">{edu.sgpaLabel}:</span>
+                        <span className="text-brand-red text-sm font-extrabold">{edu.sgpa}</span>
+                      </div>
+                    )}
                   </div>
+
 
                   {edu.highlights && (
                     <ul className="space-y-1.5 pt-2 border-t border-slate-200">
