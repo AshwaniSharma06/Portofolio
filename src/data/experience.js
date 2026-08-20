@@ -67,6 +67,33 @@ export const certificatesData = [
     description: "Practical certification on security vulnerability assessment, penetration testing tools, and system defense mechanisms."
   },
   {
+    id: "google-cloud-network",
+    title: "Develop Your Google Cloud Network",
+    issuer: "Google Cloud / Google Skills",
+    date: "May 2026",
+    category: "Cloud & Networking",
+    description: "Earned Google Cloud skill badge demonstrating expertise in IAM project access, VPC networks, Compute Engine VMs, SQL queries, and Kubernetes app deployment.",
+    verifyUrl: "https://www.skills.google/public_profiles/d32ad037-3a92-4852-9fa2-af169cf1e137/badges/24053986"
+  },
+  {
+    id: "google-kubernetes-apps",
+    title: "Deploy Kubernetes Applications on Google Cloud",
+    issuer: "Google Cloud / Google Skills",
+    date: "May 2026",
+    category: "Cloud & DevOps",
+    description: "Earned Google Cloud skill badge covering Docker containerization, Google Kubernetes Engine (GKE) clusters, kubectl cluster management, and continuous delivery (CD).",
+    verifyUrl: "https://www.skills.google/public_profiles/d32ad037-3a92-4852-9fa2-af169cf1e137/badges/24053880"
+  },
+  {
+    id: "google-expressive-efficiency",
+    title: "Work Meets Play: Expressive Efficiency",
+    issuer: "Google Cloud / Google Skills",
+    date: "May 2026",
+    category: "Cloud Architecture",
+    description: "Earned Google Cloud skill badge focused on building resilient cloud-native architectures at scale with Docker, Kubernetes, IAM, Cloud Storage, and Monitoring.",
+    verifyUrl: "https://www.skills.google/public_profiles/d32ad037-3a92-4852-9fa2-af169cf1e137/badges/24053850"
+  },
+  {
     id: "itm-python",
     title: "Introduction to Python",
     issuer: "ITM Edutech Training Pvt. Ltd.",
@@ -75,3 +102,4 @@ export const certificatesData = [
     description: "Comprehensive certification covering Python core fundamentals, data structures, and script automation."
   }
 ];
+

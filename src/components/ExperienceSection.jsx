@@ -245,10 +245,24 @@ export default function ExperienceSection() {
                     </p>
                   </div>
 
-                  <div className="pt-4 mt-4 border-t border-slate-200 flex items-center gap-1 font-mono text-[11px] font-bold text-slate-700">
-                    <ShieldCheck className="w-4 h-4 text-emerald-600" />
-                    <span>Verified Qualification</span>
+                  <div className="pt-4 mt-4 border-t border-slate-200 flex items-center justify-between font-mono text-[11px] font-bold text-slate-700">
+                    <div className="flex items-center gap-1">
+                      <ShieldCheck className="w-4 h-4 text-emerald-600" />
+                      <span>Verified Qualification</span>
+                    </div>
+                    {cert.verifyUrl && (
+                      <a
+                        href={cert.verifyUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 px-3 py-1 bg-red-50 text-brand-red hover:bg-brand-red hover:text-white rounded-md border border-brand-red/20 transition-all duration-300"
+                      >
+                        <span>Verify Badge</span>
+                        <ExternalLink className="w-3 h-3" />
+                      </a>
+                    )}
                   </div>
+
 
                 </div>
               ))}
