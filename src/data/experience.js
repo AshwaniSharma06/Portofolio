@@ -59,6 +59,15 @@ export const educationData = [
 
 export const certificatesData = [
   {
+    id: "isro-iirs-aiml-geodata",
+    title: "AI/ML for Geodata Analysis",
+    issuer: "IIRS - ISRO (Indian Space Research Organisation)",
+    date: "August 2026",
+    category: "AI/ML & Data Science",
+    description: "ISRO Outreach Programme certification (Course No. 188) focusing on artificial intelligence and machine learning techniques for spatial geodata analysis.",
+    credentialId: "Reg No: 20261883055468"
+  },
+  {
     id: "cdac-ethical-hacking",
     title: "Ethical Hacking and Penetration Testing",
     issuer: "CDAC, Noida",
@@ -102,4 +111,5 @@ export const certificatesData = [
     description: "Comprehensive certification covering Python core fundamentals, data structures, and script automation."
   }
 ];
+
 

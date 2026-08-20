@@ -240,6 +240,13 @@ export default function ExperienceSection() {
                       Issued by: <span className="text-brand-red">{cert.issuer}</span>
                     </div>
 
+                    {cert.credentialId && (
+                      <div className="inline-block font-mono text-[10px] font-bold text-slate-500 bg-slate-200/70 px-2.5 py-0.5 rounded-md">
+                        {cert.credentialId}
+                      </div>
+                    )}
+
+
                     <p className="font-body text-slate-600 text-xs leading-relaxed">
                       {cert.description}
                     </p>
