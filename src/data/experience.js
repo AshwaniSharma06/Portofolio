@@ -59,6 +59,16 @@ export const educationData = [
 
 export const certificatesData = [
   {
+    id: "leetcode-50-days-2026",
+    title: "LeetCode 50 Days Badge 2026",
+    issuer: "LeetCode",
+    date: "2026",
+    category: "DSA & Problem Solving",
+    description: "Official LeetCode achievement badge awarded for consistently solving Data Structures & Algorithms coding problems for 50+ days in 2026.",
+    credentialId: "Achievement: 50+ Days Streak",
+    verifyUrl: "https://leetcode.com/u/sharmaashwani8011/"
+  },
+  {
     id: "isro-iirs-aiml-geodata",
     title: "AI/ML for Geodata Analysis",
     issuer: "IIRS - ISRO (Indian Space Research Organisation)",
@@ -120,6 +130,7 @@ export const certificatesData = [
     description: "Comprehensive certification covering Python core fundamentals, data structures, and script automation."
   }
 ];
+
 
 
 
