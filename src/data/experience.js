@@ -68,6 +68,15 @@ export const certificatesData = [
     credentialId: "Reg No: 20261883055468"
   },
   {
+    id: "yhills-building-ai-agent",
+    title: "Building AI Agent",
+    issuer: "YHills Edutech Pvt. Ltd.",
+    date: "April 2026",
+    category: "Artificial Intelligence",
+    description: "Verified certificate for participating in the intensive 'Building AI Agent' bootcamp covering autonomous AI agents, tool integration, and LLM agent architecture.",
+    credentialId: "ID: 311a8889-d709-438a-88d2-f06f7e4b0228"
+  },
+  {
     id: "cdac-ethical-hacking",
     title: "Ethical Hacking and Penetration Testing",
     issuer: "CDAC, Noida",
@@ -111,5 +120,6 @@ export const certificatesData = [
     description: "Comprehensive certification covering Python core fundamentals, data structures, and script automation."
   }
 ];
+
 
 
